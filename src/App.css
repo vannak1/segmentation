@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.leftPanel {
+  flex: 1;
+}
+
+.textInput {
+  height: 600px;
+  width: 400px;
+}
+
+.rightPanel {
+ flex: 1;
+}
+
+.output {
+  height: 600px;
+  width: 400px;
+  overflow: scroll;
+  text-align: center;
+}
